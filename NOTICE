@@ -1,29 +1,13 @@
-图标
-====
+# 图标
 
-`icon.svg` 为本仓库原创，按插件规范的线条风格手写，未用图片模型生成。从模板新建的插件换成自己的图标时，这里按实际情况重写。
+`icon.svg` 里的图形取自 Donetick 上游仓库的官方标志
+[`assets/logo.svg`](https://github.com/donetick/donetick/blob/main/assets/logo.svg)（main@582841ab，2026-11-12），
+原样缩放放在白色底上，未改颜色和形状。
 
-许可证
-------
+- 版权与许可：Donetick 是 [AGPL-3.0](https://github.com/donetick/donetick/blob/main/LICENSE.md) 许可的开源项目，标志随其源码分发。
+- 商标：Donetick 名称与标志是 Donetick 项目的商标/标识。本插件是上游应用在云吞平台的打包，不是 Donetick 官方出品，也不代表有官方背书。
 
-MIT License
+# 插件包
 
-Copyright (c) 2026 Wonton plugin authors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+其余清单、配置和脚本（`docker-compose.yml`、`tabs/`、`scripts/smoke-probes.sh` 等）按本仓库的
+MIT 许可证（见 [LICENSE](LICENSE)）分发。
